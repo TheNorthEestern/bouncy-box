@@ -1,5 +1,6 @@
 # Bouncy Box Demo
-## Basic demo of naive collision detection using Lua & Love
+# 
+A demo of naive collision detection using Lua & Love
 ![bouncy box screenshot](http://i.imgur.com/uwEJ4iz.png)
 
 Never used LOVE? Head on over to [love2d.org](http://love2d.org) and
