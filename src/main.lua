@@ -2,7 +2,7 @@ x, y = 400, 300
 change_x, change_y = 300, 300
 
 function love.load()
-  font = love.graphics.newFont(16)
+  font = love.graphics.newFont('CherrySwash-Regular.ttf',16)
   love.graphics.setFont(font)
   love.graphics.setBackgroundColor(148, 186, 155)
   -- Paint character white
