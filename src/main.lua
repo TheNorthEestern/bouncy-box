@@ -1,16 +1,13 @@
-x, y = 400, 300
-change_x, change_y = 300, 300
-
 function love.load()
   font = love.graphics.newFont('CherrySwash-Regular.ttf',16)
-  love.graphics.setFont(font)
-  love.graphics.setBackgroundColor(148, 186, 155)
-  -- Paint character white
-  love.graphics.setColor(255, 255, 225)
+  x, y = 400, 300
+  change_x, change_y = 300, 300
 end
 
 function love.draw()
-  -- draw character
+  love.graphics.setFont(font)
+  love.graphics.setBackgroundColor(148, 186, 155)
+  love.graphics.setColor(255, 255, 225)
   love.graphics.print("X: " .. love.graphics.getWidth() - x, 50, 50)
   love.graphics.print("Y: " .. love.graphics.getWidth() - y, 50, 70)
   love.graphics.rectangle('fill', x, y, 25, 25)
